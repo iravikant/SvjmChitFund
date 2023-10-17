@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+  <androidx.cardview.widget.CardView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      app:cardCornerRadius="5dp">
+      <AutoCompleteTextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginHorizontal="10dp"
+          android:background="@color/white"
+          android:gravity="center"
+          android:text="Type Here What You Want !!!! "
+          android:drawablePadding="5dp"
+          android:drawableStart="@drawable/search_icon"
+          android:paddingVertical="15dp"/>
+  </androidx.cardview.widget.CardView>
+</LinearLayout>
